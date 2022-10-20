@@ -1,0 +1,79 @@
+POST http://localhost:3000/api/cursos/programacion
+Content-type: application/json
+
+{
+    "id": 4,
+    "titulo": "Aprende C",
+    "lenguaje": "c",
+    "vistas": 12323,
+    "nivel": "basico"
+}
+
+####
+
+PUT http://localhost:3000/api/cursos/programacion/2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "titulo": "Phyton intermedio con proyectos",
+    "lenguaje": "phyton",
+    "vistas": 12421,
+    "nivel": "intermedio"
+}
+
+####
+PATCH http://localhost:3000/api/cursos/programacion/2
+Content-Type: application/json
+
+{
+    "titulo": "Phyton con método PATCH",
+    "vistas": 151243214
+}
+
+####
+
+DELETE http://localhost:3000/api/cursos/programacion/3
+
+
+
+
+######
+POST http://localhost:3000/api/cursos/matematicas
+Content-type: application/json
+
+{
+    "id": 3,
+    "titulo": "Aprende Algoritmo",
+    "tema": "algoritmo",
+    "vistas": 12323,
+    "nivel": "basico"
+}
+
+
+####
+PUT http://localhost:3000/api/cursos/matematicas/2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "titulo": "Aprende Algebra con método PUT",
+    "tema": "algebra",
+    "vistas": 12421,
+    "nivel": "intermedio"
+}
+
+
+
+####
+PATCH http://localhost:3000/api/cursos/matematicas/2
+Content-Type: application/json
+
+{
+    "titulo": "Aprende Algebra con método PATCH",
+    "vistas": 151243214
+}
+
+
+#####
+DELETE http://localhost:3000/api/cursos/matematicas/2

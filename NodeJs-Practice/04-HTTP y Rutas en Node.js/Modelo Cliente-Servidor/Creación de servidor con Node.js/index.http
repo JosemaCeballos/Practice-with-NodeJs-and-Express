@@ -1,0 +1,9 @@
+//Aqui es donde vamos a usar la extensión mencionada en 'app2.js' :D
+POST http://localhost:3000/
+
+//Si hacemos click en 'Send Request' vamos a ver una respuesta :D
+//Si es que sigue ejecutado nuestro 'app2.js' podremos ver en nuestra terminal la solicitud con un verbo POST 
+
+//Esta extensión es sumamente util para ir probando nuestro servidor y nuestra api con distintos tipos de verbo
+
+//Y si cambiamos el POST por el nombre de uno de los otros métodos podremos verlo de igual manera! 
